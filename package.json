@@ -4,6 +4,7 @@
   "description": "We are going to be using this repo as an example to implement Gulp plugins for JShint and Sass.",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/ga-wdi-exercises/gulp-bamsay#readme",
   "devDependencies": {
-    "webpack": "^1.13.0"
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.9.0"
   }
 }
